@@ -69,7 +69,7 @@ Now, let's begin the setup process.
 
 > Copy the Repository
 
-     git clone 
+     git clone https://github.com/AitorConS/WireGuard-Immich.git 
 
 ## Configure WireGuard and Immich
 Before deploying the containers, we will configure two essential files: **`docker-compose.yml`** and **`.env`** (for Immich). The **`docker-compose.yml`** file defines the structure of our deployment, specifying the services, networks, and volumes for **WireGuard, Immich, PostgreSQL, and Redis**. The **`.env`** file allows us to configure Immich's environment variables, such as database credentials, storage paths, and optional settings, making it easier to customize the deployment without modifying the compose file directly. Properly setting up these files ensures a smooth and flexible installation process.
