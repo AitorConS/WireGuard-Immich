@@ -63,10 +63,6 @@ Now, let's begin the setup process.
 
      sudo docker run hello-world
 
-> Create a new directory:
-
-     mkdir test && cd test/
-
 > Copy the Repository
 
      git clone https://github.com/AitorConS/WireGuard-Immich.git 
